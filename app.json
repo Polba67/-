@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "gnarly-violet-coffee",
-    "slug": "snack-259d07bf-4c04-48d0-935d-1220b4aab134",
+    "name": "Тренировки",
+    "slug": "schyotchik-podhodov",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -10,6 +10,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.polba67.workouttracker",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -19,6 +20,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "051c46bb-c44d-4fb3-8a7d-67f25b37c6e0"
+      }
     }
   }
 }
